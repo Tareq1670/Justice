@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        />
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>Justice</title>
+        <style>
+            :root {
+                --dark2: rgba(65, 64, 64, 1);
+                --dark3: rgba(112, 112, 112, 1);
+                --dark6: rgba(231, 231, 231, 1);
+                --button-bg: rgba(182, 140, 90, 1);
+                --font-garamond: "EB Garamond", serif;
+                --font-poppins: "Poppins", sans-serif;
+            }
+
+            * {
+                font-family: var(--font-garamond);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav
+                class="max-w-[1170px] mx-auto flex flex-col gap-5 lg:flex-row px-2.5 sm:px-0 justify-between my-[50px] items-center"
+            >
+                <div class="flex items-center gap-4">
+                    <img class="w-[44px]" src="images/business.png" alt="" />
+                    <h2 class="text-[var(--dark2)] text-[35px] font-extrabold">
+                        Justice
+                    </h2>
+                </div>
+                <div>
+                    <ul
+                        class="flex items-center gap-2.5 sm:gap-[20px] lg:gap-[30px]"
+                    >
+                        <li class="flex items-center">
+                            <a
+                                class="tex-[16px] font-normal leading-6 cursor-pointer text-[var(--dark3)]"
+                                href=""
+                                >Home</a
+                            >
+                        </li>
+                        <li class="flex items-center cursor-pointer">
+                            <a
+                                class="tex-[16px] font-normal leading-6 text-[var(--dark3)]"
+                                href=""
+                                >Service</a
+                            ><i
+                                class="fa-solid fa-chevron-right text-[var(--dark3)] text-[14px]"
+                            ></i>
+                        </li>
+                        <li class="flex items-center cursor-pointer">
+                            <a
+                                class="tex-[16px] font-normal leading-6 text-[var(--dark3)]"
+                                href=""
+                                >Cases</a
+                            ><i
+                                class="fa-solid fa-chevron-right text-[var(--dark3)] text-[14px]"
+                            ></i>
+                        </li>
+                        <li class="flex items-center cursor-pointer">
+                            <a
+                                class="tex-[16px] font-normal leading-6 text-[var(--dark3)]"
+                                href=""
+                                >Blog</a
+                            ><i
+                                class="fa-solid fa-chevron-right text-[var(--dark3)] text-[14px]"
+                            ></i>
+                        </li>
+                        <li
+                            class="flex items-center justify-center cursor-pointer"
+                        >
+                            <a
+                                class="tex-[16px] font-normal leading-6 text-[var(--dark3)]"
+                                href=""
+                                >Contact</a
+                            ><i
+                                class="fa-solid fa-chevron-right text-[var(--dark3)] text-[14px]"
+                            ></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <button
+                        class="text-lg font-semibold bg-[var(--button-bg)] px-[29px] py-[18px] rounded-[8px] cursor-pointer text-white"
+                    >
+                        Free Consultation
+                    </button>
+                </div>
+            </nav>
+
+            <div
+                class="max-w-[1170px] mx-auto h-[550px] bg-[linear-gradient(180deg,rgba(17,17,17,1)_0%,rgba(17,17,17,0)_100%),url('./images/banner.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center rounded-lg"
+            >
+                <div class="max-w-[668px] text-center">
+                    <h1 class="text-white text-5xl sm:text-7xl leading-14 sm:leading-[85px] mb-4 sm:mb-6">
+                        We Provide Effective Legal Solutions
+                    </h1>
+                    <p
+                        class="max-w tex-[16px] font-normal leading-5 sm:leading-6 font-['Poppins'] text-[var(--dark6)] mb-4 sm:mb-8"
+                    >
+                        There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered alteration in
+                        some form, by injected humour.
+                    </p>
+                    <form class="flex flex-col px-2.5 lg:p-0 sm:flex-row gap-6">
+                        <input
+                            class="w-full sm:w-[500px] mx-auto px-[20px] py-[19px] rounded-lg"
+                            type="text"
+                            name=""
+                            placeholder="Search Your Services"
+                            id=""
+                        />
+                        <input
+                            type="submit"
+                            value="Search"
+                            class="text-xl font-semibold bg-[var(--button-bg)] px-[39px] py-[17px] rounded-[8px] cursor-pointer text-white mx-0 sm:mx-auto"
+                        />
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="max-w-[1170px] mx-auto">
+                <h2 class="text-center mt-[120px] text-[var(--dark2)] text-[40px] font-extrabold">The Legal Practice Area</h2>
+                <p class="max-w-[714px] tex-[16px] font-normal leading-5 sm:leading-6 font-['Poppins'] text-[var(--dark6)] text-center mb-4 sm:mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </section>
+        </main>
+    </body>
+</html>
