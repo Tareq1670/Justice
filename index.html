@@ -23,6 +23,7 @@
                 --dark2: rgba(65, 64, 64, 1);
                 --dark3: rgba(112, 112, 112, 1);
                 --dark6: rgba(231, 231, 231, 1);
+                --dark5: rgba(207, 207, 207, 1);
                 --dark7: rgba(243, 243, 243, 1);
                 --button-bg: rgba(182, 140, 90, 1);
                 --font-garamond: "EB Garamond", serif;
@@ -160,7 +161,7 @@
                     class="grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))] mb-[100px]"
                 >
                     <div
-                        class="flex justify-center items-center flex-col p-14 border-[1px] box-border mt-8"
+                        class="flex justify-center items-center flex-col p-14 border-[1px] box-border"
                     >
                         <img
                             class="w-20 mb-[31px]"
@@ -521,40 +522,166 @@
                         </div>
                     </div>
                     <div class="max-w-[570px] mx-auto">
-                        <form class="w-[400px] xl:w-[570px] flex flex-col items-center justify-center mx-auto gap-[30px]"  action="">
+                        <form
+                            class="w-[400px] xl:w-[570px] flex flex-col items-center justify-center mx-auto gap-[30px]"
+                            action=""
+                        >
                             <input
-                            class="w-full bg-[var(--dark7)] p-[23px] text-[16px] font-[Poppins] rounded-lg"
+                                class="w-full bg-[var(--dark7)] p-[23px] text-[16px] font-[Poppins] rounded-lg"
                                 type="text"
                                 name=""
                                 placeholder="Your Name"
                                 id=""
                             />
                             <input
-                            class="w-full bg-[var(--dark7)] p-[23px] text-[16px] font-[Poppins] rounded-lg"
+                                class="w-full bg-[var(--dark7)] p-[23px] text-[16px] font-[Poppins] rounded-lg"
                                 type="email"
                                 name=""
                                 id=""
                                 placeholder="Your Email"
                             />
                             <input
-                            class="w-full bg-[var(--dark7)] p-[23px] text-[16px] font-[Poppins] rounded-lg"
+                                class="w-full bg-[var(--dark7)] p-[23px] text-[16px] font-[Poppins] rounded-lg"
                                 type="text"
                                 name=""
                                 id=""
                                 placeholder="Subject"
                             />
                             <textarea
-                            class="w-full bg-[var(--dark7)] p-[23px] text-[16px] font-[Poppins] rounded-lg resize-none"
+                                class="w-full bg-[var(--dark7)] p-[23px] text-[16px] font-[Poppins] rounded-lg resize-none"
                                 name=""
                                 placeholder="Your Message"
                                 id=""
                                 rows="5"
                             ></textarea>
-                            <input class="text-xl font-semibold bg-[var(--button-bg)] px-[39px] py-[17px] rounded-[8px] cursor-pointer text-white w-full" type="submit" value="Submit" />
+                            <input
+                                class="text-xl font-semibold bg-[var(--button-bg)] px-[39px] py-[17px] rounded-[8px] cursor-pointer text-white w-full"
+                                type="submit"
+                                value="Submit"
+                            />
                         </form>
                     </div>
                 </div>
             </section>
         </main>
+
+        <footer class="bg-[rgba(17,17,17,1)] py-[120px]">
+            <div
+                class="max-w-[1170px] mx-auto px-2.5 lg:p-0 flex flex-col justify-between sm:flex-row sm:flex-wrap gap-8"
+            >
+                <div class="max-w-[259px]">
+                    <img class="w-[158px] mb-8" src="images/logo.png" alt="" />
+                    <p
+                        class="tex-[16px] font-normal leading-5 sm:leading-6 font-['Poppins'] text-[var(--dark5)]"
+                    >
+                        There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered alteration in
+                        some form, by injected humour.
+                    </p>
+                </div>
+
+                <div
+                    class="w-full sm:max-w-[259px] flex flex-col justify-between"
+                >
+                    <h2
+                        class="text-white mb-47px text-2xl font-extrabold mb-[20px]"
+                    >
+                        Useful Link
+                    </h2>
+                    <ul class="flex flex gap-5 sm:flex-col">
+                        <li>
+                            <a
+                                class="font-['Poppins'] text-[var(--dark5)] tex-[16px]"
+                                href="#"
+                                >Homes</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="font-['Poppins'] text-[var(--dark5)] tex-[16px]"
+                                href="#"
+                                >About Us</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="font-['Poppins'] text-[var(--dark5)] tex-[16px]"
+                                href="#"
+                                >Cases</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="font-['Poppins'] text-[var(--dark5)] tex-[16px]"
+                                href="#"
+                                >Blog</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="font-['Poppins'] text-[var(--dark5)] tex-[16px]"
+                                href="#"
+                                >Contact Us</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+
+                <div
+                    class="max-w-[259px] flex flex-col justify-between"
+                >
+                    <h2
+                        class="text-white mb-47px text-2xl font-extrabold mb-[20px]"
+                    >
+                        Contact Us
+                    </h2>
+                    <ul class="flex gap-5 flex-col">
+                        <li>
+                            <a
+                                class="font-['Poppins'] text-[var(--dark5)] tex-[16px]"
+                                href="#"
+                                >555 4th 5t NW, Washington DC 20530, United
+                                States</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="font-['Poppins'] text-[var(--dark5)] tex-[16px]"
+                                href="#"
+                                >+88 01750 000 000 <br />
+                                +88 01750 000 000</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="font-['Poppins'] text-[var(--dark5)] tex-[16px]"
+                                href="#"
+                                >info@gmail.com info@gmail.com</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div
+                    class="w-full sm:max-w-[259px] flex flex-col justify-between"
+                >
+                    <h2
+                        class="text-white mb-47px text-2xl font-extrabold mb-[20px]"
+                    >
+                        Subscribe
+                    </h2>
+                    <div class="flex gap-5 flex-col ">
+                        <p
+                            class="max-w-[259px] tex-[16px] font-normal leading-5 sm:leading-6 font-['Poppins'] text-[var(--dark5)]"
+                        >
+                            Subscribe for our latest & Articles. We Won’t Give
+                            You Spam Mails
+                        </p>
+                        <form action="" class="relative flex items-center justify-center">
+                            <input class="relative text-[16px] text-[rgba(160,160,160,1)] p-[23px] rounded-lg w-80 inline-block" type="email" name="" placeholder="Email Address" id=""><div class="flex items-center justify-center  bg-[var(--button-bg)] w-18 h-18 p-[20px] relative ml-[-77px] rounded-[8px] cursor-pointer"><i class="fa-brands fa-telegram text-[30px] text-white"></i></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
